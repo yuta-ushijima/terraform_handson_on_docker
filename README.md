@@ -2,6 +2,21 @@
 
 This is sample repo for terraform on docker.
 
+## Structure
+```
+terraform_handson_on_docker
+├── README.md
+├── docker
+│   ├── reset_docker.sh
+│   └── terraform
+│       ├── Dockerfile
+│       └── init.sh
+├── docker-compose.yml
+└── src
+    ├── main.tf
+    └── variable.tf
+```
+
 ## environment
 
 ### terraform
