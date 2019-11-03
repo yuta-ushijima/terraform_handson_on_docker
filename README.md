@@ -32,6 +32,15 @@ $ aws --version
 aws-cli/1.16.168 Python/3.6.9 Linux/4.9.184-linuxkit botocore/1.13.8
 ```
 
+## Export Environment Variable
+```
+# Your own AWS Access Key ID
+$ export AWS_ACCESS_KEY_ID='xxxxxxxxxxxxx'
+
+# Your own AWS Secret Access Key
+$ export AWS_SECRET_ACCESS_KEY='xxxxxxxxxxxxxxxxxx'
+```
+
 ## Stand Up docker
 ```
 $ docker-compose build
