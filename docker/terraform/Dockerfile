@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y less vim wget unzip
 
 # install terraform.
 # https://azukipochette.hatenablog.com/entry/2018/06/24/004354
-RUN wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip && \
-    unzip ./terraform_0.11.13_linux_amd64.zip -d /usr/local/bin/
+RUN wget https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip && \
+    unzip ./terraform_0.12.13_linux_amd64.zip -d /usr/local/bin/
 
 # create workspace.
 COPY ./src /root/src
